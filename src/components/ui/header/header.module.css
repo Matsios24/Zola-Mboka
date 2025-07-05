@@ -1,0 +1,22 @@
+:root {
+  --background_head: #00c853;
+}
+.navbarContainer {
+  padding: 1.5rem;
+}
+.navbarContainer a {
+  text-decoration: none;
+  color: #000;
+}
+.navbarContainer ul {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+}
+.navbarContainer ul li {
+  color: #212121;
+  cursor: pointer;
+}

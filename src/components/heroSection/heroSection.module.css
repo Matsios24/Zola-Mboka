@@ -1,0 +1,83 @@
+/* The import elemnent */
+/* The fonts */
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+/*================ TABLETS =============*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+/*================ LAPTOPS =============*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+/*================ DESKTOPS =============*/
+@media only screen and (min-width: 1200px) {
+  .mainContainer {
+    background: url("../../assets/images/heroImage.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 32rem;
+    position: relative;
+  }
+  .mainContainer h1 {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    font-size: 4rem;
+    color: #00ff;
+  }
+}
+/*================ MOBILE DEVICE =============*/
+@media only screen and (max-width: 767px) {
+  .mainContainer {
+    background: url("../../assets/images/heroImage.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .primaryContainer {
+    position: absolute;
+    top: 30px;
+    right: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4px;
+  }
+  .title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #000;
+    background-image: url("../../assets/images/imagebg.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+  }
+  .leadtext {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+  }
+  .callAction {
+    padding: 15px 10px;
+    background: #04a;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 3em;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  .callAction a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
