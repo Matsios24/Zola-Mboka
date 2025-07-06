@@ -1,12 +1,19 @@
-# React + Vite
+# Zola-Mboka
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description  
 
-Currently, two official plugins are available:
+**Zola-Mboka** est un site vitrine moderne dédié à la promotion des événements culturels, artistiques et communautaires.  
+Il met en avant les événements locaux avec toutes les infos clés pour informer et rassembler la communauté.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités principales  
 
-## Expanding the ESLint configuration
+- Liste dynamique des événements à venir avec description, date, heure et lieu  
+- Galerie photo pour chaque événement  
+- Design responsive, adapté aux mobiles et tablettes  
+- Navigation simple et intuitive  
+- Section "À propos" pour présenter l’équipe ou l’organisateur
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies utilisées  
+
+- HTML5, CSS3, JavaScript  
+- React js
