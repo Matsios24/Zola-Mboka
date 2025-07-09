@@ -16,15 +16,96 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 32rem;
+    height: 35rem;
     position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   }
-  .mainContainer h1 {
+
+  .primaryContainer {
     position: absolute;
-    top: 50px;
-    right: 300px;
-    font-size: 4rem;
-    color: #00ff;
+    top: 30px;
+    right: 5em;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4px;
+  }
+
+  .wavetext span {
+    display: inline-block;
+    font-size: 4em;
+    animation: wave 2s ease-in-out infinite;
+    font-weight: 900;
+    background-image: url("../../assets/images/imagebg.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Anton", sans-serif;
+  }
+
+  .wavetext span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .wavetext span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .wavetext span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  .wavetext span:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  .wavetext span:nth-child(5) {
+    animation-delay: 0.8s;
+  }
+  .wavetext span:nth-child(6) {
+    animation-delay: 1s;
+  }
+  .wavetext span:nth-child(7) {
+    animation-delay: 1.4s;
+  }
+  .wavetext span:nth-child(8) {
+    animation-delay: 1.6s;
+  }
+  .wavetext span:nth-child(9) {
+    animation-delay: 1.8s;
+  }
+
+  @keyframes wave {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+
+  .leadtext {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+  }
+
+  .callAction {
+    padding: 15px 10px;
+    background: #04a;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 22px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  .callAction {
+    font-size: 1.1rem;
+    padding: 20px 16px;
+    max-width: 250px;
+  }
+  .callAction a {
+    text-decoration: none;
+    color: #fff;
   }
 }
 /*================ MOBILE DEVICE =============*/
@@ -48,8 +129,8 @@
     flex-direction: column;
     padding: 0 4px;
   }
-  .title {
-    font-size: 3.5rem;
+  .wavetext {
+    font-size: 3.4rem;
     font-weight: 900;
     color: #000;
     background-image: url("../../assets/images/imagebg.jpg");

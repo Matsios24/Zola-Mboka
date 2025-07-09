@@ -6,9 +6,20 @@ const Herosection = () => {
   return (
     <div className={style.mainContainer}>
       <div className={style.primaryContainer}>
-        <h1 className={style.title}>
-          Zola <br /> Mboka
-        </h1>
+        <div className={style.wavecontainer}>
+          <h1 className={style.wavetext}>
+            <span>Z</span>
+            <span>O</span>
+            <span>L</span>
+            <span>A</span>
+            <br />
+            <span>M</span>
+            <span>B</span>
+            <span>O</span>
+            <span>K</span>
+            <span>A</span>
+          </h1>
+        </div>
 
         <h6 className={style.leadtext}>
           Venez admirez le talent <br /> na Mboka ya Bisooooo !!!!!

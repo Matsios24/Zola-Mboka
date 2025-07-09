@@ -1,4 +1,40 @@
-:root {
+
+/*================ TABLETS =============*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+/*================ LAPTOPS =============*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+/*================ DESKTOPS =============*/
+@media only screen and (min-width: 1200px) {
+  :root {
+  --background_head: #00c853;
+}
+.navbarContainer {
+  padding: 1.5rem;
+}
+.navbarContainer a {
+  text-decoration: none;
+  color: #000;
+}
+.navbarContainer ul {
+  display: flex;
+  gap: 6rem;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  justify-content: center;
+}
+.navbarContainer ul li {
+  color: #212121;
+  cursor: pointer;
+}
+}
+/*================ MOBILE DEVICE =============*/
+@media only screen and (max-width: 767px) {
+  :root {
   --background_head: #00c853;
 }
 .navbarContainer {
@@ -20,3 +56,8 @@
   color: #212121;
   cursor: pointer;
 }
+}
+
+
+
+

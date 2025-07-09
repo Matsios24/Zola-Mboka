@@ -2,6 +2,8 @@ import React from "react";
 import { CiClock1, CiCalendar, CiLocationOn } from "react-icons/ci";
 import style from "./article.module.css";
 const Articles = ({ image, evenement, description, lieu, heure, date }) => {
+
+
   return (
     <div className={style.mainContainer}>
       <div className={style.imageEvent}>

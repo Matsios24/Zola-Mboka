@@ -8,7 +8,7 @@ const Header = () => {
     <div className={style.navbarContainer}>
       <ul>
         <li>
-          <Link to="/home">
+          <Link to="/">
             <AiFillHome />
           </Link>
         </li>
@@ -18,12 +18,12 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link to="/popularEvents">
+          <Link to="/">
             <FaTrophy />
           </Link>
         </li>
         <li>
-          <Link to="showEvent">Show </Link>
+          <Link to="/showEvent">Show </Link>
         </li>
       </ul>
     </div>

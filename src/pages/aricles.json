@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://wzeweb-p-visuelorga-evn-affiche.s3.eu-west-1.amazonaws.com/affiche_1048794.jpeg",
+    "evenement": "Concert de musique urbaine",
+    "description": "Un concert exceptionnel réunissant les meilleurs artistes locaux.",
+    "lieu": "Stade Massamba-Débat",
+    "heure": "19:00",
+    "date": "2025-07-15"
+  },
+  {
+    "id": 2,
+    "image": "https://f.hellowork.com/files/smartforum/mb_departement_nouvelle_aquitaine/articles_cover_picture/2c/2cfc66fe-4a69-4445-80d5-363c0c03abec.jpeg",
+    "evenement": "Salon des entrepreneurs",
+    "description": "Rencontrez des experts et découvrez des opportunités pour vos projets.",
+    "lieu": "Palais des Congrès de Brazzaville",
+    "heure": "09:00",
+    "date": "2025-08-05"
+  },
+  {
+    "id": 3,
+    "image": "https://sceneweb.fr/wp-content/uploads/2023/11/danse-dense-lefestival-2023.jpg",
+    "evenement": "Festival de danse",
+    "description": "Compétition et spectacle des meilleures troupes de danse du pays.",
+    "lieu": "Place de la République",
+    "heure": "16:00",
+    "date": "2025-09-12"
+  },
+  {
+    "id": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuLqD_AOazC8_eA6miHh4tzMj33I5H6WBE6dusLmd2Wwyzakkww0_ndo9Iu-CrMZ_4_c&usqp=CAU",
+    "evenement": "Dimanche Zen",
+    "description": "Une journée dédiée au bien-être : yoga, méditation, massages et relaxation au bord du fleuve.",
+    "lieu": "Jardin botanique de Brazzaville",
+    "heure": "08:00",
+    "date": "2025-07-20"
+  },
+  {
+    "id": 5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNPSF2tnBm95UH_1-6_MT5zDAezQ-FNHV0Ig&s",
+    "evenement": "Conférence Tech Africa",
+    "description": "Une conférence dédiée à l'innovation numérique et aux startups africaines.",
+    "lieu": "Université Marien Ngouabi",
+    "heure": "10:00",
+    "date": "2025-10-20"
+  },
+  {
+    "id": 6,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQtjvw4BY6Ih09mmXht1B5WujxTJUeBHfRg&s",
+    "evenement": "Marathon de Brazzaville",
+    "description": "Course ouverte à tous pour promouvoir la santé et le sport.",
+    "lieu": "Boulevard Alfred Raoul",
+    "heure": "06:30",
+    "date": "2025-11-03"
+  },
+  {
+    "id": 7,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVzevnKLup1-faNDd9fS_v_lf2zmkOpCxDgg&s",
+    "evenement": "Marché de Noël",
+    "description": "Un marché festif avec des stands d'artisanat, de gastronomie et des animations pour enfants.",
+    "lieu": "Centre-ville de Brazzaville",
+    "heure": "14:00",
+    "date": "2025-12-18"
+  },
+  {
+    "id": 8,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxGDxMjyANbs3G4MGsnl3OVfMvsCV6ECYQPA&s",
+    "evenement": "Projection de cinéma en plein air",
+    "description": "Venez profiter d'un film culte sous les étoiles, entrée gratuite.",
+    "lieu": "Parc zoologique de Brazzaville",
+    "heure": "20:00",
+    "date": "2025-08-22"
+  }
+]

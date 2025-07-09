@@ -6,13 +6,25 @@
 }
 /*================ DESKTOPS =============*/
 @media only screen and (min-width: 1200px) {
+  .secondarySection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 16px;
+  }
+  .secondarySection a{
+    text-decoration: none;
+    color: #000;
+  }
+  
 }
 /*================ MOBILE DEVICE =============*/
 @media only screen and (max-width: 767px) {
   .maincontainer {
     height: 100em;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 10px;
   }
